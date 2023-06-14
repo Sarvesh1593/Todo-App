@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:id="@+id/new_task_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="@string/new_task"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_new_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_task_text"
+        android:layout_alignParentEnd="true"
+        android:textSize="14sp"
+        android:text="@string/save"
+        android:background="@drawable/round_corner"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

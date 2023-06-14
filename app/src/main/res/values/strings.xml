@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">todo app</string>
+    <string name="get_started">Get Started</string>
+    <string name="tvView">One of the secrets of getting more done is to make a TO-DO List every day, keep it visible, and use it as a guide to action as you go through the day.</string>
+    <string name="get_things_done_with_todo">Get Things Done With TODO</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="theme">Theme</string>
+    <string name="setting">Setting</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
+</resources>
